@@ -1110,13 +1110,13 @@ break
         if (isBanned) return freply(mess.banned)
                sendKontak(from, `${nomorowner}`, `${namaowner}`, 'Sibukk!!')
                await sleep(1000)
-               txtt =`*Hai Kak* ${pushname}\nItu Ownerku, Mau Ngpain Yaa?`
+               txtt =`*Hallo bre* ${pushname}\nItu Ownerku, Mau Ngpain Lu?`
 
                buttons = [{buttonId: '!youtube',buttonText:{displayText: 'yσυтυвє'},type:1},{buttonId:'!infoig',buttonText:{displayText:'ıηsтαgяαм'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
-               footerText: 'Jangan Ganggu Owner Ku🗿',
+               footerText: 'Jangan Ganggu Owner.',
                buttons: buttons,
                headerType: 1
 }
@@ -1124,7 +1124,7 @@ break
                prep = await Ramdani.prepareMessageFromContent(from,{buttonsMessage},{})
                Ramdani.relayWAMessage(prep)
                break                     
-//------------------------ < SUBSCRIBE RAMDANI OFFICIAL > ------------------------\\
+//------------------------ < SUBSCRIBE NINESEC TEAM > ------------------------\\
         case 'menu':
         case 'help':
         case 'm':
@@ -1133,18 +1133,18 @@ break
         if (!isRegist) return freply(mess.regist)
         if (isBanned) return freply(mess.banned)
         freply(mess.wait)
-        menu =`*Hai Kak👋 ${pushname} ${ucapanWaktu}*
+        menu =`*Hallo Bre ${pushname} ${ucapanWaktu}*
 
     『 *BOT INFO* 』
 
-⛱ *Device* : xiaomi redmi 4A
+⛱ *Device* : Xiaomi Redmi 5A
 🗺 *Wa Version* : 2.22.3.77
 💬 *OS Version* : 10
-🌐 *Platfrom* : android/pc
-📳 *Mode* : > public mode <
+🌐 *Platfrom* : Android
+📳 *Mode* : > Public mode <
 ☢ *Prefix* : > multi prefix <
 🔋 *baterai bot* : ${baterai}
-👨💻 *Name Creator* : Ramdani Official
+👨💻 *Name Creator* : Known7
 
 
        『 *USER INFO* 』
@@ -1178,7 +1178,7 @@ break
         if (!isRegist) return freply(mess.regist)
         if (isBanned) return freply(mess.banned)
         freply(mess.wait)
-        allmenu =`*hallo kak👋 ${pushname} ${ucapanWaktu}*
+        allmenu =`*Hallo bre ${pushname} ${ucapanWaktu}*
 ━━━━━ *INFO USER* ━━━━━
 ❏ NAMA : *${pushname}*
 ❏ API : *wa.me/${sender.split('@')[0]}*
@@ -1871,8 +1871,8 @@ case 'script2': case 'sc2':
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(`━━━━━ *SCRIPT* ━━━━━
-❏ LINK VIA GITHUB : https://github.com/Ramdaniofficial/v17
-❏ BASE ORI : Ramdani Official
+❏ LINK VIA GITHUB : https://github.com/Wangsafz/v17
+❏ BASE ORI : Known7
 ❏ TYPE SC : nodejs
 ❏ DI BUAT PADA : sel, 29, mart, 2022
 *━━━━━━━━━━━━━━━━━━━━*`)
@@ -1941,7 +1941,7 @@ break
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,  `*Hallo Kak 👋* ${pushname} ${ucapanWaktu}, Silahkan Pilih Gamenya Disini`, list)
+               listmsg(from, `${ucapanWaktu}`,  `*Hallo Bre* ${pushname} ${ucapanWaktu}, Silahkan Pilih Gamenya Disini`, list)
                randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
                Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                break
@@ -1965,7 +1965,7 @@ break
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,  `*Hallo Kak 👋* ${pushname} ${ucapanWaktu}, Silahkan Pilih Gamenya Disini`, list)
+               listmsg(from, `${ucapanWaktu}`,  `*Hallo Bre* ${pushname} ${ucapanWaktu}, Silahkan Pilih Gamenya Disini`, list)
                randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
                Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
                break
@@ -1990,10 +1990,10 @@ case 'topupsaldo':
                    }
                         list.push(yy)
            }
-               listmsg(from, `${ucapanWaktu}`,  `*Hallo Kak 👋* ${pushname} ${ucapanWaktu}, Silahkan Pilih Gamenya Disini`, list)
+               listmsg(from, `${ucapanWaktu}`,  `*Hallo Bre* ${pushname} ${ucapanWaktu}, Silahkan Pilih Gamenya Disini`, list)
                break
 //THANKS TO
-case 'thanksto': //DI HAPUS? KETAHUAN AWAS LUH GUA GABAKAL NGEBOT LAGI
+case 'thanksto': //DI HAPUS? KETAUAN AWAS LU GUA GABAKAL NGEBOT LAGI
 case 'tqto':
 case 'tqtq':
 if (!isRegist) return freply(mess.regist)
@@ -2014,7 +2014,7 @@ freply(`• *BIG THANKS TO*
 • DIKA XD
 • SIEGRIN
 • KANNABOT
-• YANZ BOT`)
+• Known7
 randomaudi = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randomaudi, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 
 break
